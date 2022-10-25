@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'adsd';
+
+  // getTime() {
+  //   var date = new Date();
+  //   var current_time = date.getHours()+":"+date.getMinutes()+":"+ date.getSeconds();
+  //   document.getElementById("p1").innerHTML = current_time;
+  // }
 }
