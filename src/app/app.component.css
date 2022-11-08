@@ -1,5 +1,10 @@
 .datetime {
     height: 30px;
-    width: 70px;
+    width: 180px;
     background-color: aliceblue;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 5px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

@@ -3,21 +3,20 @@
     <body>
 
 
-<nav class="navbar bg-danger">
+<nav class="navbar fixed-top bg-danger">
     <div class="container-fluid">
       <span class="navbar-brand mb-0 h1">Arrival - Departure Schedule Board</span>
       <div class="datetime">
-        <!-- <p (load)="getTime()"></p> -->
-        <script>
-            
-        </script>
+        {{today | date}} | 
+        {{today | date:'HH:mm z'}}
       </div>
+      
     </div>
   </nav>
 
   <br><br>
 
-  <div class="container text-center">
+  <div class="container text-center mt-5">
     <div class="row align-items-center">
         <div class="col">
             <a routerLink="/view"><button type="button" class="btn btn-outline-primary btn-lg">View</button></a>
@@ -26,11 +25,7 @@
             <a routerLink="edit"><button type="button" class="btn btn-outline-primary btn-lg">Edit</button></a>
         </div>
     </div>
-    
-    
   </div>
-
-
 
 
 <router-outlet></router-outlet> 
